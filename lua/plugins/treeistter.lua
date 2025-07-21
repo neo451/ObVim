@@ -4,6 +4,7 @@ return {
 	branch = "main",
 	build = ":TSUpdate",
 	config = function()
-		require("nvim-treesitter").install({ "markdown", "markdown_inline", "yaml" })
+		require("nvim-treesitter").install({
+      "markdown", "markdown_inline", "yaml" })
 	end,
 }
